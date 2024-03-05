@@ -16,6 +16,7 @@ body{
     color: white;
     justify-content: space-evenly;
     align-items: center;
+    margin: 50px;
 }
 
 .item{
@@ -115,4 +116,12 @@ footer a{
 
 footer a:hover{
     color: #8B0000;
+}
+
+.pearl{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
