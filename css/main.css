@@ -81,8 +81,6 @@ section{
     background-color: #8B0000;
     font-size: 1.5vw;
     padding: 20px;
-    margin-right: 50px;
-    margin-left: 50px;
     margin-bottom: 150px;
     border-radius: 20px;
 }
@@ -107,17 +105,12 @@ img{
     justify-content: center;
 }
 
-footer{
-    font-size: 1.5vw;
-    color: #8B0000;
-    font-weight: bold;
-}
-
 footer a{
     font-size: 1.5vw;
     color: #C0C0C0;
     font-weight: bold;
     text-decoration: none;
+    padding:20px
 }
 
 footer a:hover{
