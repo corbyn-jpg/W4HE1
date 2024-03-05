@@ -22,14 +22,16 @@ body{
 .item{
     display: block;
     position: relative;
-    font-size: 1.5vw;
+    font-size: 2.2vw;
     font-weight: bold;
+    font-family: PiecesofEight;
 }
 
 .active{
-    font-size: 1.5vw;
+    font-size: 2.2vw;
     color: #8B0000;
     font-weight: bold;
+    font-family: PiecesofEight;
 }
 
 .item a{
@@ -68,14 +70,26 @@ body{
     transition: 0s;
 }
 
+@font-face {
+    font-family: PiecesofEight;
+    src: url(../assets/PiecesofEight.ttf);
+}
+
 header{
-    font-size: 1.8vw;
+    font-family: PiecesofEight;
+    font-size: 3vw;
     color: #C0C0C0;
     background-color: rgba(139, 0, 0, 0.5);
     margin-bottom: 50px;
     width: 50%;
     margin-left: 25%;
     border-radius: 10px;
+}
+
+h1{
+    font-family: PiecesofEight;
+    font-size: 2vw;
+    color: #C0C0C0;
 }
 
 section{
@@ -124,4 +138,28 @@ footer a:hover{
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.wedding{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdMovie img{
+    width: 100%;
+}
+
+.worldEnd{
+    position: relative;
+    color: #C0C0C0;
+}
+
+.endText{
+    position: absolute;
+    padding: 20px;
+    top: 5%;
+    right: 50%;
 }
