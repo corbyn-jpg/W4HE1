@@ -163,3 +163,21 @@ footer a:hover{
     top: 5%;
     right: 50%;
 }
+
+.cast{
+    
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list img{
+    padding: 30px;
+    border-radius: 20px;
+    width: 50%;
+    height: 550px;
+}
