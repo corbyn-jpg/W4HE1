@@ -176,8 +176,8 @@ footer a:hover{
 }
 
 .list img{
-    padding: 30px;
-    border-radius: 20px;
+    margin: 20px;
+    border-radius: 10px;
     width: 50%;
     height: 550px;
 }
